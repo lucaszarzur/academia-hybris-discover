@@ -10,7 +10,7 @@ import java.math.BigDecimal;
 public class PrecificacaoService {
 
     // Aqui nós qualificamos qual bean queremos injetar
-    @Qualifier("lucroPresumido") // simplesNacional
+    @Qualifier("simplesNacional") // simplesNacional
     @Autowired
     private CalculadoraImposto calculadoraImposto;
 

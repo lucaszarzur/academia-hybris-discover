@@ -10,7 +10,4 @@
     <!-- service -->
     <bean id="userService" class="br.com.discover.academia.hybris.service.PrecificacaoService"/>
 
-    <!-- Concrete classes -->
-    <bean id="lucroPresumido" class="br.com.discover.academia.hybris.calculadorasImposto.CalculadoraImpostoLucroPresumido"/>
-    <bean id="simplesNacional" class="br.com.discover.academia.hybris.calculadorasImposto.CalculadoraImpostoSimplesNacional"/>
 </beans>
