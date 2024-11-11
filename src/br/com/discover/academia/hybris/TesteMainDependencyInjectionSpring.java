@@ -1,16 +1,14 @@
 package br.com.discover.academia.hybris;
 
-import br.com.discover.academia.hybris.config.AppConfig;
 import br.com.discover.academia.hybris.service.PrecificacaoService;
-import org.springframework.context.ApplicationContext;
-import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import java.math.BigDecimal;
 
 public class TesteMainDependencyInjectionSpring {
 
     public static void main(String[] args) {
-        ApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
+        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("resources/config/applicationContext.xml");
         PrecificacaoService precificacaoService = context.getBean(PrecificacaoService.class);
 
         BigDecimal result = precificacaoService.calcularPreco(new Produto());
