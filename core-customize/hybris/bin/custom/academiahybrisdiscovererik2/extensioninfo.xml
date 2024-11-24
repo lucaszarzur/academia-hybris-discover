@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+ Copyright (c) 2021 SAP SE or an SAP affiliate company. All rights reserved.
+--><extensioninfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="extensioninfo.xsd">
+           
+    
+    <extension abstractclassprefix="Generated" classprefix="Academiahybrisdiscovererik2" jaloLogicFree="true" managername="Academiahybrisdiscovererik2Manager" managersuperclass="de.hybris.platform.jalo.extension.Extension" name="academiahybrisdiscovererik2" usemaven="false">
+                  
+
+      
+        
+        <coremodule generated="true" manager="br.com.discover.academia.hybris.jalo.Academiahybrisdiscovererik2Manager" packageroot="br.com.discover.academia.hybris"/>
+                	
+        
+           
+    
+    </extension>
+        
+
+</extensioninfo>
