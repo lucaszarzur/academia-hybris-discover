@@ -1,0 +1,196 @@
+*.log
+*.class
+#*.jar
+*.bin
+*.lock
+
+jalo/
+licenses/
+idea-module-files/
+README
+
+
+#####################
+#License
+####################
+
+hybris/config
+hybris/config/backup
+hybris/config/languages
+hybris/config/licence
+hybris/config/solr
+hybris/config/tcServer
+hybris/config/tomcat
+hybris/config/readme.txt
+hybris/config/hybris4intellij.properties
+
+# Directories #
+/build/
+target/
+.gradle/
+.sonar/
+core-customize/.sonar
+core-customize/.gradle
+ 
+# OS Files #
+.DS_Store
+.idea
+*.idea
+.classpath
+idea-module-files/*
+idea-module-files/
+.gradle/*
+ 
+*.class
+ 
+# Package Files #
+*.war
+*.ear
+*.db
+ 
+ 
+######################
+# Windows
+######################
+ 
+# Windows image file caches
+Thumbs.db 
+ 
+# Folder config file
+Desktop.ini
+ 
+ 
+######################
+# OSX
+######################
+ 
+.DS_Store
+.svn
+ 
+# Thumbnails
+._*
+ 
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+######################
+# Linux
+######################
+ 
+ 
+######################
+# Eclipse
+######################
+*.project
+*.pydevproject
+.metadata
+tmp/**
+tmp/**/*
+**/eclipsebin/**
+*.tmp
+*.bak
+*.swp
+*~.nib
+.settings/
+**/.settings/*
+.loadpath
+/src/main/resources/rebel.xml
+.lastupdate
+*/lib/*
+
+# External tool builders
+.externalToolBuilders/
+ 
+# Locally stored "Eclipse launch configurations"
+*.launch
+ 
+# CDT-specific
+.cproject
+ 
+# PDT-specific
+.buildpath
+
+# Ignoring .svn folder
+.svn/*
+
+# Git files created by Eclipse
+**/.gitginore
+
+*JRebel
+*rebel.xml
+*.vscode
+ 
+ 
+######################
+# Hybris 
+######################
+
+# Files
+build.xml
+SIGNATURE.SMF
+extensioninfo.xsd
+hmc.xsd
+platformhome.properties
+items.xsd
+beans.xsd
+**/*-testclasses.xml
+**/*-webtestclasses.xml
+.pmd
+.spring[Bb]eans
+
+# Folders
+# Folders - Hybris Specific
+data/
+log/
+temp/
+roles/
+.metadata/
+hybris/bin/ext-*/
+hybris/bin/platform/
+**/RemoteSystemsTempFiles/
+**/.externalToolBuilders/
+build-tools/
+c4c-integration/
+hybris-Mobile-Apps-SDK/
+hybris-sbg/
+
+# Folders - Automatically Generated
+**/backoffice/aguiabrancabackoffice_bof.jar
+**/classes/
+**/gensrc/
+**/hmc/bin/	
+**/hmc/classes
+**/web/addonsrc/
+**/web/commonwebsrc/
+**/web/testclasses/
+**/web/webroot/_ui/
+!**/web/webroot/_ui/**/images
+**/web/webroot/_ui/shared/js/generatedVariables.js
+**/web/webroot/cmscockpit/
+**/web/webroot/cockpit/
+**/web/webroot/productcockpit/
+**/web/webroot/WEB-INF/addons/
+**/web/webroot/WEB-INF/classes/
+**/web/webroot/WEB-INF/_ui-src/addons/
+**/web/webroot/WEB-INF/messages/addons/
+**/web/webroot/WEB-INF/tags/addons/
+**/web/webroot/WEB-INF/tld/addons/
+**/web/webroot/WEB-INF/views/addons/
+**/web/addontestsrc/
+
+installer/.gradle
+
+# Folders - New Folder Structure
+core-customize/platform
+core-customize/hybris/bin/platform
+core-customize/hybris/bin/modules
+core-customize/hybris/bin/ext-*
+core-customize/hybris/config/local.properties
+
+# Spartacus
+js-storefront
+
+# Outros
+installer
+resources
