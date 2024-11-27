@@ -55,7 +55,7 @@ public class DefaultVehicleDAO implements VehicleDAO {
         final String queryString = //
                 "SELECT {p:" + PassengerCarModel.PK + "} " //
                         + "FROM {" + PassengerCarModel._TYPECODE + " AS p} " //
-                        + "WHERE {p:" + PassengerCarModel.CODE + "}=?code";
+                        + "WHERE {p:" + PassengerCarModel.LICENSEPLATE + "}=?code";
 
         final FlexibleSearchQuery query = new FlexibleSearchQuery(queryString);
         query.addQueryParameter("code", code);
@@ -69,7 +69,7 @@ public class DefaultVehicleDAO implements VehicleDAO {
         final String queryString = //
                 "SELECT {p:" + CargoVehicleModel.PK + "} "//
                         + "FROM {" + CargoVehicleModel._TYPECODE + " AS p} "//
-                        + "WHERE {p:" + CargoVehicleModel.CODE + "}=?code";
+                        + "WHERE {p:" + CargoVehicleModel.LICENSEPLATE + "}=?code";
 
         final FlexibleSearchQuery query = new FlexibleSearchQuery(queryString);
         query.addQueryParameter("code", code);
