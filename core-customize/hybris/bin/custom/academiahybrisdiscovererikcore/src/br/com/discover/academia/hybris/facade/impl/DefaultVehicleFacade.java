@@ -57,7 +57,7 @@ public class DefaultVehicleFacade implements VehicleFacade {
     {
         if (name == null)
         {
-            throw new IllegalArgumentException("Band name cannot be null");
+            throw new IllegalArgumentException("License Plate cannot be null");
         }
 
         final PassengerCarModel passengerCar = vehicleService.findPassengerCarsByCode(name);

@@ -307,5 +307,6 @@
 <!--    <extension dir="/app-erik/academia-hybris-discover/spartacus_accelerator/core-customize/hybris/bin/custom/academiahybrisdiscovererikcore3"/>-->
     <extension name="academiahybrisdiscovererik"/>
 <!--    <extension name="academiahybrisdiscovererik2"/>-->
+    <extension name="academiahybrisdiscovererikstorefront"/>
   </extensions>
 </hybrisconfig>
